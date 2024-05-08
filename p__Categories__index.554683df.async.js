@@ -1,0 +1,7 @@
+"use strict";(self.webpackChunkant_design_pro=self.webpackChunkant_design_pro||[]).push([[616],{11815:function(C,s,e){e.r(s);var r=e(5574),i=e.n(r),c=e(26641),u=e(35312),h=e(28459),_=e(2487),E=e(4393),o=e(67294),t=e(85893),D=function(){var g=(0,o.useState)([]),l=i()(g,2),v=l[0],x=l[1],m=function(){(0,c.tG)().then(function(n){x(n.data.songs)})};(0,o.useEffect)(function(){m()},[]);var p=function(n,a){u.history.push("/categories/playList/".concat(n,"/").concat(a))};return(0,t.jsx)(h.ZP,{theme:{token:{fontFamily:"Segoe UI"}},children:(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)("style",{children:`
+          @media (max-width: 768px) {
+            .ant-list-grid.ant-list-item {
+              width: 50%;
+            }
+          }
+        `}),(0,t.jsxs)("div",{style:{overflow:"auto",padding:"25px 25px",marginTop:"10px"},children:[(0,t.jsx)("h3",{children:"Categories"}),(0,t.jsx)("p",{style:{color:"#B6B6B6",paddingBottom:"10px",fontSize:"12px"},children:"Select categories and add songs to the playlist"}),(0,t.jsx)(_.Z,{grid:{gutter:16,xs:2,sm:2,md:4,lg:4,xl:4},dataSource:v,renderItem:function(n){var a;return(0,t.jsx)(_.Z.Item,{children:(0,t.jsx)(E.Z,{bodyStyle:{padding:"10px"},style:{backgroundColor:"#C2B0D8",textAlign:"center"},onClick:function(){return p(n.id,n==null?void 0:n.name)},cover:(0,t.jsx)("img",{alt:"example",src:n!=null&&n.icons&&n.icons.length>0?n.icons[0].url:null}),title:"",children:(0,t.jsx)("div",{style:{height:"30px",overflow:"hidden"},children:(a=n==null?void 0:n.name)!==null&&a!==void 0?a:"-"})})})}})]})]})})};s.default=D}}]);
